@@ -1,0 +1,165 @@
+body {
+  margin: 0px;
+}
+
+header {
+  height: 100vh;
+  background-color: #cccccc;
+}
+
+h1 {
+  padding: 0px;
+  margin: 0px;
+  color: #ffffff;
+  font-size: 80px;
+  letter-spacing: 3px;
+  text-shadow: 1px 2px #000000;
+}
+
+h2 {
+  color: rgb(22, 165, 22);
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+  font: 16px "Verdana", Calibri;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+header nav {
+  background-color: rgb(47, 49, 49);
+  z-index: 100;
+  overflow: auto;
+  box-shadow: 1px 10px 30px #000000c9;
+}
+
+header nav > div {
+  float: left;
+}
+
+header nav div:first-child {
+  margin-left: 10%;
+}
+
+header nav div:first-child + div {
+  margin-left: 30%;
+}
+
+header nav div:first-child + div ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+  color: #ffffff;
+}
+
+header nav div:first-child + div ul li:hover {
+  cursor: pointer;
+  background-color: #ffffff52;
+  border-radius: 2px;
+}
+/**************************************************/
+
+header > div {
+  height: 70%;
+  background-image: url(../img/monitorizar.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%, 70%;
+}
+
+header > div h1 {
+  width: 60%;
+  padding: 15% 0% 0% 10%;
+}
+
+/*****************************/
+.primera_seccion {
+  padding: 2%;
+}
+
+.primera_seccion > div:first-child {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.primera_seccion > div:first-child hr {
+  width: 20%;
+}
+
+.primera_seccion > div:first-child + div {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.primera_seccion > div:first-child + div div {
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+}
+
+.primera_seccion > div:first-child + div div i {
+  font-size: 80px;
+  color: rgba(23, 197, 23, 0.623);
+  margin-bottom: 10px;
+}
+/**********************************/
+.segunda_seccion {
+  padding: 2% 2% 0% 2%;
+}
+
+.segunda_seccion > div:first-child {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.segunda_seccion > div:first-child hr {
+  width: 20%;
+}
+
+.segunda_seccion > div:first-child + div {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.segunda_seccion > div:first-child + div img {
+  display: inline-block;
+  width: 24%;
+  padding: 3px;
+  height: 230px;
+}
+/***********************************/
+.tercera_seccion {
+  background-color: rgb(49, 192, 49);
+  margin: 0% 2%;
+  padding: 2% 0%;
+  color: #ffffff;
+}
+
+.tercera_seccion > div:first-child {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.tercera_seccion > div:first-child h2 {
+  color: #ffffff;
+}
+
+.tercera_seccion > div:first-child hr {
+  width: 20%;
+}
+
+.tercera_seccion > div:first-child + div {
+  width: 70%;
+  margin: auto;
+  padding: 3%;
+  column-count: 2;
+}
