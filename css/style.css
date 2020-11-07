@@ -31,11 +31,9 @@ a {
   color: #ffffff;
 }
 
-header nav {
+header > nav {
   background-color: rgb(47, 49, 49);
-  z-index: 100;
   overflow: auto;
-  box-shadow: 1px 10px 30px #000000c9;
 }
 
 header nav > div {
@@ -73,12 +71,13 @@ header > div {
 
 header > div h1 {
   width: 60%;
-  padding: 15% 0% 0% 10%;
+  padding: 18% 0% 0% 10%;
 }
 
 /*****************************/
 .primera_seccion {
   padding: 2%;
+  box-shadow: 1px 0.5px 3px #0000007e;
 }
 
 .primera_seccion > div:first-child {
@@ -162,4 +161,51 @@ header > div h1 {
   margin: auto;
   padding: 3%;
   column-count: 2;
+}
+/**************************************/
+
+.cuarta_seccion {
+  margin: 0% 2%;
+  padding: 2% 0%;
+  color: #000000;
+}
+
+.cuarta_seccion > div:first-child {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.cuarta_seccion > div:first-child h2 {
+  color: rgb(22, 165, 22);
+}
+
+.cuarta_seccion > div:first-child hr {
+  width: 20%;
+}
+
+.cuarta_seccion > div:first-child + div {
+  background-color: rgb(49, 192, 49);
+  margin-top: 40px;
+  overflow: auto;
+  text-align: center;
+}
+
+.cuarta_seccion > div:first-child + div > div {
+  color: #ffffff;
+  text-align: right;
+  display: inline-block;
+  padding: 3%;
+  position: relative;
+  left: -15%;
+}
+
+.cuarta_seccion > div:first-child + div > div:last-child {
+  left: 10%;
+}
+
+.cuarta_seccion > div:first-child + div > div:last-child * {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 25px;
 }
