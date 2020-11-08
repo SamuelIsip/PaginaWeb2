@@ -130,9 +130,7 @@ header > div h1 {
 
 .segunda_seccion > div:first-child + div img {
   display: inline-block;
-  width: 24%;
   padding: 3px;
-  height: 230px;
 }
 /***********************************/
 .tercera_seccion {
@@ -208,4 +206,144 @@ header > div h1 {
   display: inline-block;
   margin-left: 10px;
   font-size: 25px;
+}
+/****************************************/
+.quinta_seccion {
+  margin: 0% 2%;
+  color: #000000;
+}
+
+.quinta_seccion > div:first-child {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.quinta_seccion > div:first-child h2 {
+  color: rgb(22, 165, 22);
+}
+
+.quinta_seccion > div:first-child hr {
+  width: 20%;
+}
+
+.quinta_seccion > div:first-child + div {
+  margin: 2% 0% 3% 0%;
+  padding: 0% 15%;
+  overflow: auto;
+}
+
+.quinta_seccion > div:first-child + div > div {
+  float: left;
+}
+
+.quinta_seccion > div:first-child + div > div:first-child + div {
+  margin-left: 2%;
+  width: 70%;
+}
+
+.quinta_seccion > div:first-child + div > div:first-child + div * {
+  margin: 0px;
+}
+
+.quinta_seccion > div:first-child + div > div:first-child + div > form {
+  overflow: auto;
+  margin-top: 10px;
+}
+
+.quinta_seccion > div:first-child + div > div:first-child + div > form input,
+textarea {
+  border: 1px solid #16a516;
+  padding: 7px 0px 7px 5px;
+}
+
+.quinta_seccion > div:first-child + div > div:first-child + div > form input {
+  width: 200px;
+}
+
+.quinta_seccion
+  > div:first-child
+  + div
+  > div:first-child
+  + div
+  > form
+  textarea {
+  width: 98%;
+}
+
+.quinta_seccion > div:first-child + div > div:first-child + div > form > div {
+  display: block;
+  margin-top: 10px;
+}
+
+.quinta_seccion
+  > div:first-child
+  + div
+  > div:first-child
+  + div
+  > form
+  > div:first-child
+  > div {
+  display: inline-block;
+}
+
+.quinta_seccion
+  > div:first-child
+  + div
+  > div:first-child
+  + div
+  > form
+  > div:first-child
+  > div
+  * {
+  display: block;
+}
+
+.quinta_seccion
+  > div:first-child
+  + div
+  > div:first-child
+  + div
+  > form
+  > div:first-child
+  + div
+  * {
+  display: block;
+}
+
+.quinta_seccion
+  > div:first-child
+  + div
+  > div:first-child
+  + div
+  > form
+  > div:last-child {
+  text-align: right;
+  padding: 0% 1%;
+}
+
+.quinta_seccion
+  > div:first-child
+  + div
+  > div:first-child
+  + div
+  > form
+  > div:last-child
+  input {
+  padding: 7px 70px;
+  color: #16a516;
+  background-color: #ffffff;
+}
+
+.quinta_seccion
+  > div:first-child
+  + div
+  > div:first-child
+  + div
+  > form
+  > div:last-child
+  input:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #16a516b0;
 }
