@@ -3,7 +3,6 @@ body {
 }
 
 header {
-  height: 100vh;
   background-color: #cccccc;
 }
 
@@ -379,6 +378,7 @@ footer > div:first-child + div div {
   float: left;
   width: 30%;
 }
+
 footer > div:first-child + div div:first-child {
   margin-left: 100px;
 }
