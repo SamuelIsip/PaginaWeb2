@@ -1,0 +1,45 @@
+.cuarta_seccion {
+  margin: 0% 2%;
+  padding: 2% 0%;
+  color: #000000;
+}
+
+.cuarta_seccion > div:first-child {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.cuarta_seccion > div:first-child h2 {
+  color: rgb(22, 165, 22);
+}
+
+.cuarta_seccion > div:first-child hr {
+  width: 20%;
+}
+
+.cuarta_seccion > div:first-child + div {
+  background-color: rgb(49, 192, 49);
+  margin-top: 40px;
+  overflow: auto;
+  text-align: center;
+}
+
+.cuarta_seccion > div:first-child + div > div {
+  color: #ffffff;
+  text-align: right;
+  display: inline-block;
+  padding: 3%;
+  position: relative;
+  left: -15%;
+}
+
+.cuarta_seccion > div:first-child + div > div:last-child {
+  left: 10%;
+}
+
+.cuarta_seccion > div:first-child + div > div:last-child * {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 25px;
+}

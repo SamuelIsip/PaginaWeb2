@@ -1,0 +1,52 @@
+footer {
+  background-color: #2f3131;
+  color: #ffffff;
+}
+
+footer > div:first-child {
+  background-color: #464949;
+  padding: 30px;
+}
+
+footer > div:first-child p {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+footer > div:first-child a {
+  margin-left: 50%;
+  font: 16px "Verdana", Calibri;
+  color: #16a516;
+}
+
+footer > div:first-child + div {
+  padding: 30px;
+  overflow: auto;
+}
+
+footer > div:first-child + div div {
+  float: left;
+  width: 30%;
+}
+
+footer > div:first-child + div div:first-child {
+  margin-left: 100px;
+}
+
+footer > div:first-child + div div:first-child * {
+  display: block;
+}
+
+footer > div:first-child + div div:first-child + div * {
+  display: block;
+  margin-bottom: 5px;
+}
+
+footer > div:first-child + div div:last-child p {
+  margin-bottom: 15px;
+}
+
+footer > div:first-child + div div:last-child i {
+  margin-right: 5px;
+  font-size: 40px;
+}

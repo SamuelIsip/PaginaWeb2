@@ -1,0 +1,23 @@
+.segunda_seccion {
+  padding: 2% 2% 0% 2%;
+}
+
+.segunda_seccion > div:first-child {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.segunda_seccion > div:first-child hr {
+  width: 20%;
+}
+
+.segunda_seccion > div:first-child + div {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.segunda_seccion > div:first-child + div img {
+  display: inline-block;
+  padding: 3px;
+}

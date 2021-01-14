@@ -1,0 +1,27 @@
+.tercera_seccion {
+  background-color: rgb(49, 192, 49);
+  margin: 0% 2%;
+  padding: 2% 0%;
+  color: #ffffff;
+}
+
+.tercera_seccion > div:first-child {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.tercera_seccion > div:first-child h2 {
+  color: #ffffff;
+}
+
+.tercera_seccion > div:first-child hr {
+  width: 20%;
+}
+
+.tercera_seccion > div:first-child + div {
+  width: 70%;
+  margin: auto;
+  padding: 3%;
+  column-count: 2;
+}

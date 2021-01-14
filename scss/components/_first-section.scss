@@ -1,0 +1,33 @@
+.primera_seccion {
+  padding: 2%;
+  box-shadow: 1px 0.5px 3px #0000007e;
+}
+
+.primera_seccion > div:first-child {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.primera_seccion > div:first-child hr {
+  width: 20%;
+}
+
+.primera_seccion > div:first-child + div {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.primera_seccion > div:first-child + div div {
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+}
+
+.primera_seccion > div:first-child + div div i {
+  font-size: 80px;
+  color: rgba(23, 197, 23, 0.623);
+  margin-bottom: 10px;
+}
